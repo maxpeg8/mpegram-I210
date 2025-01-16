@@ -10,13 +10,17 @@ Brief description of understanding. Use any combination of markdown techniques. 
 
 ### Version Control, Git, & GitHub
 
-Brief description of understanding. Use any combination of markdown techniques. Should be more than 2 sentences.
+- Version control is something that keeps track of the pushes/changes to a source code.
+
+* In this case Git is tracking the changes I make to my repository source code.
+
+- Github allows for the display of the code and sharing it woth others.
 
 ### Markdown & Documentation
 
 ##### The number of hashtags (ranging from 1-6) determines the size of the heading.
 
-By surrounding text with **two astericks** on each side makes it bold, **underlines** makes it italic.
+By surrounding text with **(\*\*)two astericks(\*\*) or ( \_ \_ )two underlines( \_ \_ )** on each side makes it bold, _(\*)one astericks(\*) or ( \_ )one underlines( \_ )_ makes it italic.
 
 Unordered list use:
 
