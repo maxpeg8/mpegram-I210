@@ -2,17 +2,21 @@
 
 ### Websites vs Web Applications
 
-Brief description of understanding. Use any combination of markdown techniques. Should be more than 2 sentences.
+- Websites are pages of content that are used to display content that isn't interactive. Websites are intended to display information.
+
+- Web Apps are pages of content that are interavtive. Web Apps are intended to have action.
 
 ### VS Code & Extensions
 
-Brief description of understanding. Use any combination of markdown techniques. Should be more than 2 sentences.
+- VS Code is program that is used to write the code. By writing it here and uploading the code to git/github, an application can be created.
+
+- Extensions on VS Code mostly make is quicker/easier to write the code with things like color coding and shortcuts.
 
 ### Version Control, Git, & GitHub
 
 - Version control is something that keeps track of the pushes/changes to a source code.
 
-* In this case Git is tracking the changes I make to my repository source code.
+- In this case Git is tracking the changes I make to my repository source code.
 
 - Github allows for the display of the code and sharing it woth others.
 
@@ -26,7 +30,7 @@ Unordered list use:
 
 - asterick (\*)
 
-* plus sign (+)
+- plus sign (+)
 
 - minus sign (-)
 
