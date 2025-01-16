@@ -20,7 +20,7 @@ Brief description of understanding. Use any combination of markdown techniques. 
 
 ##### The number of hashtags (ranging from 1-6) determines the size of the heading.
 
-By surrounding text with **(\*\*)two astericks(\*\*) or ( \_ \_ )two underlines( \_ \_ )** on each side makes it bold, _(\*)one astericks(\*) or ( \_ )one underlines( \_ )_ makes it italic.
+By surrounding text with **(\*\*)two astericks(\*\*) or ( \_ \_ )two underlines( \_ \_ )** on each side makes it bold, _(\*)one asterick(\*) or ( \_ )one underline( \_ )_ makes it italic.
 
 Unordered list use:
 
