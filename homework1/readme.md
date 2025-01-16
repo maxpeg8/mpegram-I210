@@ -14,13 +14,13 @@ Brief description of understanding. Use any combination of markdown techniques. 
 
 ### Markdown & Documentation
 
-The number of hashtags (ranging from 1-6) determines the size of the heading.
+##### The number of hashtags (ranging from 1-6) determines the size of the heading.
 
-By surrounding text with **two stars** on each side makes it bold, **underlines** makes it italic.
+By surrounding text with **two astericks** on each side makes it bold, **underlines** makes it italic.
 
 Unordered list use:
 
-- star (\*)
+- asterick (\*)
 
 * plus sign (+)
 
