@@ -1,3 +1,37 @@
 p {
   color: red;
+  background-color: black;
+}
+
+#lemonMan {
+  padding: 100px;
+}
+
+.bananaGuard {
+  font-size: 40px;
+}
+
+h4 + p {
+  height: 30px;
+  background-color: red;
+  color: white;
+}
+
+body h1 ~ p {
+  padding-bottom: 50px;
+}
+
+ul li {
+  list-style: url(https://cdn.iconscout.com/icon/free/png-256/free-tomato-emoji-icon-download-in-svg-png-gif-file-formats--food-vegetable-emoj-drink-twemoji-pack-icons-30690.png);
+  margin-left: 250px;
+}
+
+body > h4 {
+  font-size: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+span {
+  /* doesn't do anything */
+  height: 300px;
 }
