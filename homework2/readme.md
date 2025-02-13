@@ -10,5 +10,4 @@ Brief description of understanding. Use any combination of markdown techniques.
 
 ### Live Link
 
-[Blog Page](https://{username}.github.io/{reponame}/homework-2)
-https://maxpeg8.github.io/
+[Blog Page](https://maxpeg8.github.io/mpegram-I210/homework2)
