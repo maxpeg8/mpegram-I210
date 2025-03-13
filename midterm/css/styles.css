@@ -48,6 +48,7 @@ nav ul li a {
 
 section {
   margin: 40px 20px;
+  /* margin-bottom: 30px; */
 }
 
 .homeGroup1 {
@@ -91,7 +92,7 @@ section {
 .homeCatalog ul {
   display: flex;
   align-items: center;
-  height: 200px;
+  height: 230px;
   width: 800px;
   list-style: none;
   justify-content: space-between;
@@ -101,7 +102,7 @@ section {
 .homeCatalog ul li img {
   height: 200px;
   width: 200px;
-  padding-bottom: 50px;
+  margin-bottom: 30px;
 }
 
 .checkCatalogButton {
@@ -145,4 +146,26 @@ section {
   font-weight: bold;
   width: 300px;
   margin: 15px 0px;
+}
+
+.catalogOptions {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+  align-items: center;
+  height: 200px;
+  width: 700px;
+  list-style: none;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.option {
+  text-align: center;
+  font-weight: bold;
+}
+
+.option img {
+  height: 200px;
+  width: 200px;
 }
