@@ -47,7 +47,7 @@ nav ul li a {
 }
 
 section {
-  margin: 40px 15px;
+  margin: 40px 20px;
 }
 
 .homeGroup1 {
@@ -110,4 +110,39 @@ section {
   color: white;
   padding: 10px 10px;
   border-radius: 10px;
+}
+
+.aboutText1 {
+  margin-top: 30px;
+  margin-right: 5px;
+}
+
+.aboutH3 {
+  font-size: 25px;
+  padding: 5px 0px;
+  max-width: 345px;
+  border-bottom: solid 3px;
+  margin-top: 15px;
+}
+
+.eventsGroup {
+  display: flex;
+  align-items: center;
+  /* height: 200px; */
+  width: 1000px;
+  list-style: none;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.event img {
+  height: 200px;
+  width: 300px;
+}
+
+.eventTitle {
+  font-size: 17px;
+  font-weight: bold;
+  width: 300px;
+  margin: 15px 0px;
 }
