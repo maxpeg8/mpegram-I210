@@ -11,8 +11,8 @@ My core webpages will feature a gallery and a specific page for each of the grou
 ### Design Choices
 
 My choices for colors will be inspired by the official color scheme for the city of Sante Fe, NM.
-Colors: #3E3E3E, #F9C647, #BFD8D2, #EF4136
+Colors: #3E3E3E (Gray), #F9C647 (Yellow), #BFD8D2 (Blue), #EF4136 (Red)
 Blue will be the background color
-Reb will be the secondary text color
+Red will be the secondary text color
 Gray will be the primary text color
 Yellow will be the accent color
