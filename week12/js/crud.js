@@ -24,19 +24,22 @@ async function getDreams() {
     const currentDream = dreamsDocs.docs[i];
 
     const data = currentDream.data();
+
     const hearts = data.hearts || 0;
 
     dreamsRef.innerHTML += `
-      <div class="dream">
+    <div class="dream">
         <h4>
-        <span class="delete" data-id="${currentDream.id}">&otimes;</span>
-        ${data.text}</h4>
+        <span class="delete" data-id="${currentDream.id}">&cross;</span>
+        ${data.text}
+        </h4>
         <p>Likes: ${hearts}</p>
         <p>
           <button class="edit">Edit</button>
-          <button class="heart" data-id="${currentDream.id}" data-hearts="${hearts}">&hearts;</button>
+          <button class="heart" data-id="${currentDream.id}" data-hearts="${hearts}" >&hearts;</button>
         </p>
-      </div>`;
+      </div>
+    `;
   }
 
   const heartsRef = document.querySelectorAll(".heart");
@@ -45,10 +48,10 @@ async function getDreams() {
     heartsRef[i].onclick = addHeart;
   }
 
-  const otimesRef = document.querySelectorAll(".delete");
+  const crossesRef = document.querySelectorAll(".delete");
 
-  for (let i = 0; i < otimesRef.length; i++) {
-    otimesRef[i].onclick = forgetDream;
+  for (let i = 0; i < crossesRef.length; i++) {
+    crossesRef[i].onclick = forgetDream;
   }
 }
 
@@ -72,6 +75,7 @@ async function forgetDream(e) {
 
   if (userConfirmed) {
     const dreamToDelete = doc(dreamsCollection, e.target.dataset.id);
+
     await deleteDoc(dreamToDelete);
 
     getDreams();
