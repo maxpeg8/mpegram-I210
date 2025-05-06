@@ -3,10 +3,12 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 html,
 body {
   height: 100%;
 }
+
 h1,
 h2,
 h3,
@@ -19,16 +21,16 @@ p {
 
 nav ul {
   background-color: #751eff;
-  /* height: 50px; */
   list-style: none;
+
   display: flex;
   gap: 40px;
   padding: 10px;
 }
 
-nav ul li a {
-  color: white;
+nav a {
   text-decoration: none;
+  color: white;
   font-size: 20px;
 }
 
@@ -36,6 +38,7 @@ nav ul li a {
   height: 400px;
   width: 600px;
   background-color: grey;
+
   display: flex;
   flex-direction: column-reverse;
   overflow-y: scroll;
@@ -43,9 +46,9 @@ nav ul li a {
 
 #story p {
   border: 2px solid black;
-  padding: 4px 2px;
-  margin-bottom: 3px;
-  background-color: lightgray;
+  padding: 4px 0;
+  margin-bottom: 4px;
+  background-color: darkgrey;
 }
 
 .form {
@@ -53,5 +56,4 @@ nav ul li a {
   display: grid;
   grid-template-columns: 2fr 1fr;
   grid-template-rows: 50px;
-  margin-top: 10px;
 }
